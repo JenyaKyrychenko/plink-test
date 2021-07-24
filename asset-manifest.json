@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/plink-test/static/css/main.1d642074.chunk.css",
+    "main.js": "/plink-test/static/js/main.834c82e9.chunk.js",
+    "main.js.map": "/plink-test/static/js/main.834c82e9.chunk.js.map",
+    "runtime-main.js": "/plink-test/static/js/runtime-main.5d226912.js",
+    "runtime-main.js.map": "/plink-test/static/js/runtime-main.5d226912.js.map",
+    "static/js/2.368fd515.chunk.js": "/plink-test/static/js/2.368fd515.chunk.js",
+    "static/js/2.368fd515.chunk.js.map": "/plink-test/static/js/2.368fd515.chunk.js.map",
+    "index.html": "/plink-test/index.html",
+    "static/css/main.1d642074.chunk.css.map": "/plink-test/static/css/main.1d642074.chunk.css.map",
+    "static/js/2.368fd515.chunk.js.LICENSE.txt": "/plink-test/static/js/2.368fd515.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d226912.js",
+    "static/js/2.368fd515.chunk.js",
+    "static/css/main.1d642074.chunk.css",
+    "static/js/main.834c82e9.chunk.js"
+  ]
+}
