@@ -1,4 +1,4 @@
-import {ADD_USER, ADD_USER_INFO} from "./actions";
+import {ADD_USER_INFO} from "./actions";
 
 const defaultState = {
     name: '',

@@ -1,8 +1,7 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import TableHeader from "../components/TableHeader";
-import {useDispatch, useSelector} from "react-redux";
-import {filterProducts} from "../redux/reducers/productReducer";
+import {useSelector} from "react-redux";
 import downArrow from "../icons/down-arrow.svg";
 import upArrow from '../icons/up-arrow.svg'
 

@@ -1,4 +1,3 @@
-import {ADD_PRODUCT, FILTER_PRODUCTS} from "./actions";
 
 const defaultState = [
     {id: 1, name: 'Lenovo IC-512', sku: 'ZC11501', ram: 4, hdd: 512, price: 550},
