@@ -13,6 +13,8 @@ input {
 /*Container Start*/
 
 .container {
+    position: absolute;
+    top: 0%; left:20%; right: 20%;
     max-width: 80vw;
     margin: 50px 0;
     background-color: #fff;
@@ -37,6 +39,15 @@ input {
 .product-table {
     display: flex;
     flex-direction: column;
+}
+
+.filter{
+    display: flex;
+    column-gap: 5px;
+}
+
+.filter__img{
+    width: 15px;
 }
 
 .product-table__row {
@@ -87,7 +98,7 @@ input {
 .form-row {
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 100%;
 }
 
 .form-row__label {
@@ -141,12 +152,13 @@ input {
 
 /*Product Info Start*/
 
-.product-info, .info-body{
-    width: 70vh;
+.product-info,.info-body {
+    width: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 5px;
 }
+
 
 .info-body__row{
     display: flex;
@@ -167,16 +179,51 @@ input {
 }
 
 .info-body__desc{
+    display: flex;
     border: none;
     font-style: italic;
-    transition: all .1s ease;
-    width: 50%;
+    transition: all 1s ease;
+    width: 30%;
 }
 
 .info-body__desc:focus, .info-body__desc:hover{
-    transform: scale(1.2) translateX(10px);
+    transform: scale(1.2);
+    transform: translateX(10%);
     box-shadow: 0px 5px 10px -1px rgba(34, 60, 80, 0.2);
 }
 
-
 /*Product Info End*/
+
+/*Animations*/
+
+
+.container-enter-active{
+    animation: fade-in .5s forwards;
+}
+
+.container-exit-active{
+    animation: fade-out .5s forwards;
+}
+
+@keyframes fade-in {
+    from{
+         opacity: 0;
+         transform: translateX(-400px);
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}

@@ -83,7 +83,6 @@ const Order = () => {
     },[form])
 
     return (
-        <>
             <div className='container'>
                 <div className="title">Ordering Form</div>
                 <form className="order-form">
@@ -127,7 +126,6 @@ const Order = () => {
                     </div>
                 </form>
             </div>
-        </>
     );
 };
 

@@ -2,6 +2,10 @@ import React from 'react';
 
 const ProductInfo = ({product}) => {
 
+    if(!product){
+        return null
+    }
+
     return (
         <>
             <div className="title">Product information</div>
